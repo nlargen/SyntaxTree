@@ -25,6 +25,6 @@ public class MathExpression extends Expression
 	}
 	public String toString()
 	{
-		return (leftOperand.toString() + " " + operator.toString() + rightOperand.toString() );
+		return ("(" + leftOperand.toString() + " " + operator.toString() + rightOperand.toString() + ")");
 	}
 }
